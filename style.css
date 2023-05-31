@@ -1,12 +1,23 @@
+/* Versão todas as demais midias */
+
+/* Typical Device breakpoints
+Pequenas telas: até 600px;
+Celular: de 600px até 768px;
+Tablet: 768px até 992px;
+Desktop: 992px até 1200px;
+Grandes Telas: acima de 1200px;
+*/
 
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   body{
-     background-image: linear-gradient(to right,#fdfd32,#ca5009, #0b3faf);
+     background-image: linear-gradient(to right,#ca5009, #0b3faf);
   }
-.container {
+
+  
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,4 +41,6 @@
   }
   .container span.time{
     font-size:30px;
-  }
+  } 
+  
+ 
