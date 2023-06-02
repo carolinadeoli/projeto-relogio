@@ -6,19 +6,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 98px;
+    padding-top: 100px;
     
   }
   
   .container > div {
     background-color: black;
-    width: 30px;
-    height: 75px;
+    width: 23px;
+    height: 72px;
     padding: 48px;
     padding-bottom:58px;
     margin: 10px;
     text-align: center;
-    line-height: 70px;
+    line-height: 60px;
     font-size: 26px;
     color:white;
     border-radius: 10px;
@@ -26,7 +26,7 @@
   }
   .container span.time{
     
-    font-size:13px;
+    font-size:12px;
       
   }
 
