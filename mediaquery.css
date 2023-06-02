@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
+@media screen and (max-width:767px){
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    
+  }
+  
+  .container > div {
+    background-color: black;
+    width: 57px;
+    height: 80px;
+    padding: 48px;
+    padding-bottom:58px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 31px;
+    color:white;
+    border-radius: 10px;
+    
+  }
+  .container span.time{
+    
+    font-size:16px;
+      
+  }
+
+}
+
 @media screen  and (min-width:768px) and (max-width:992px){
     
     .container {
@@ -13,29 +45,21 @@
       .container > div {
         background-color: black;
         width: 60px;
-        height: 95px;
+        height: 85px;
         padding: 50px;
         padding-bottom:60px;
         margin: 10px;
         text-align: center;
         line-height: 75px;
-        font-size: 35px;
+        font-size: 38px;
         color:white;
         border-radius: 10px;
         
       }
       .container span.time{
-        font-size:22px;
-        
+       
+        font-size:17px;
+         
       }
       
 }
-/* Versão todas as demais midias */
-
-/* Typical Device breakpoints
-Pequenas telas: até 600px;
-Celular: de 600px até 768px;
-Tablet: 768px até 992px;
-Desktop: 992px até 1200px;
-Grandes Telas: acima de 1200px;
-*/
