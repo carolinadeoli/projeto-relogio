@@ -13,7 +13,7 @@ Grandes Telas: acima de 1200px;
   }
   
   body{
-     background-image: linear-gradient(90deg,#ca5009, #0b3faf);
+     background-image: linear-gradient(to right,#ca5009, #0b3faf);
   }
 
   
