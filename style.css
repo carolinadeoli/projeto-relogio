@@ -17,6 +17,7 @@ Grandes Telas: acima de 1200px;
   }
 
   
+  
   .container {
     display: flex;
     justify-content: center;
@@ -27,7 +28,7 @@ Grandes Telas: acima de 1200px;
   }
   
   .container > div {
-    background-color: black;
+    background-color:  rgba(0, 0, 0, 0.705);
     width: 145px;
     height: 160px;
     padding: 95px;
